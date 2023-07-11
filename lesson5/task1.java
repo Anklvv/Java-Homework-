@@ -37,10 +37,10 @@ public class task1 {
         Map<String, ArrayList<Integer>> bookPhone = new HashMap<>();
         addNumber("Nikolaeva", 123, bookPhone);
         addNumber("Nikolaeva", 1234, bookPhone);
-        addNumber("Kozlova", 546585, bookPhone);
-        addNumber("Zhukova", 8956477, bookPhone);
-        addNumber("Grymov", 12356233, bookPhone);
-        addNumber("Zverev", 787897, bookPhone);
+        addNumber("Kozlova", 12345, bookPhone);
+        addNumber("Zhukova", 123456, bookPhone);
+        addNumber("Grymov", 1234567, bookPhone);
+        addNumber("Zverev", 12345678, bookPhone);
         printBook(bookPhone);
     }
 }
