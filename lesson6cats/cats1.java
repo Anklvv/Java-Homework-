@@ -1,4 +1,4 @@
-package lesson6cats.java;
+package lesson6cats;
 
 public class cats1 {
     
