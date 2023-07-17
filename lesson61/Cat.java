@@ -3,21 +3,13 @@ package lesson61;
 import java.util.Objects;
 
 public class Cat {
-    /**
-     * Кличка
-     */
+    // Кличка
     String name;
-    /**
-     * Пол кота
-     */
+    // Пол кота
     String gender;
-    /**
-     Цвет кота
-     */
+    // Цвет кота
     String color;
-    /**
-     Возраст
-     */
+    //  Возраст
     int age;
 
     public  Cat(){
@@ -32,10 +24,10 @@ public class Cat {
 
     @Override
     public String toString() {
-        return  "Кличка:" + name +
-                ", Пол:" + gender +
-                ", Цвет:" + color +
-                ", Возраст:" + age + "\n";
+        return  "Кличка:" + name + "," +
+                "Пол:" + gender + "," +
+                "Цвет:" + color + "," +
+                "Возраст:" + age + "\n";
     }
 
     @Override
